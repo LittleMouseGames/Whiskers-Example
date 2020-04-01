@@ -1,26 +1,9 @@
 [gd_scene load_steps=4 format=2]
 
+[ext_resource path="res://Scenes/Container.gd" type="Script" id=1]
+
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.0823529, 0.0823529, 0.0823529, 1 )
-
-[sub_resource type="GDScript" id=3]
-script/source = "extends Control
-
-
-# Declare member variables here. Examples:
-# var a = 2
-# var b = \"text\"
-
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
-"
 
 [sub_resource type="StyleBoxFlat" id=2]
 bg_color = Color( 0.117647, 0.12549, 0.141176, 1 )
@@ -50,7 +33,7 @@ margin_left = -288.0
 margin_top = -116.0
 margin_right = 288.0
 margin_bottom = 252.0
-script = SubResource( 3 )
+script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
